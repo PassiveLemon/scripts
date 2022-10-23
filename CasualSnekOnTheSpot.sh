@@ -7,8 +7,8 @@ sudo apt install -y '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-d
 if [ -e onethespot/ ]; then
   cd onethespot/
 else
-  sudo git clone https://github.com/casualsnek/onethespot/
-  cd onethespot/
+  sudo git clone https://github.com/casualsnek/onthespot
+  cd onthespot/
   pip install -r requirements.txt
 fi
 python3 onthespot.py
