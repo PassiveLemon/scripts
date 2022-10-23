@@ -13,7 +13,7 @@ if exist "C:\Program Files (x86)\Steam\steamapps\common\TurnSignal\TurnSignal.ex
 
 if exist "D:\SteamLibrary\steamapps\common\TurnSignal\TurnSignal.exe" (
 	echo "|| Installation found in D:\ ||"
-	xcopy /Y /s "TurnSignalBuilds\*" "D:\SteamLibary\steamapps\common\TurnSignal\"
+	xcopy /Y /s "TurnSignalBuilds\*" "D:\SteamLibrary\steamapps\common\TurnSignal\"
 	goto success
 ) else (
 	goto error
