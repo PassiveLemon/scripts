@@ -6,5 +6,5 @@ Write-Output "|| Launching installer... ||"
 Start-Process -Filepath .\BetterDiscord-Windows.exe
 
 #Write-Output "|| Finished. Cleaning up... ||"
-#Remove-Item -Path .\BetterDiscord-Windows.exe -NoNewWindow -Wait
+#Remove-Item -Path BetterDiscord-Windows.exe
 # Above does not work for some reason so you have to remove the exe yourself.
