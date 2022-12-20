@@ -5,3 +5,5 @@ Details about each script is in the wiki.
 
 ## TODO:
 If possible, eliminate the need for a version variable. </br>
+- Impacts: VRperfkit.ps1, RetroArchInstall.ps1 </br>
+- Effect: No need for manual updates. </br>
