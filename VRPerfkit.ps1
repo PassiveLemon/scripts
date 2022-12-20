@@ -5,7 +5,7 @@ Read-Host "|| press enter to continue. ||"
 
 Write-Output "|| Downloading version v%version%… ||"
 $ProgressPreference = 'SilentlyContinue'
-Invoke-WebRequest -Uri https://github.com/fholger/vrperfkit/releases/download/v$version/vrperfkit_v$version.zip -OutFile vrperfkit_v$version.zip -UseBasicParsing
+Invoke-WebRequest -Uri https://github.com/fholger/vrperfkit/releases/latest/download/vrperfkit_v$version.zip -OutFile vrperfkit_v$version.zip -UseBasicParsing
 Expand-Archive -Path .\vrperfkit_v$version.zip -DestinationPath .\
 
 Write-Output "|| Downloaded. Cleaning up... ||"

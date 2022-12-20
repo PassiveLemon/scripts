@@ -7,4 +7,4 @@ Start-Process -Filepath .\BetterDiscord-Windows.exe
 
 #Write-Output "|| Finished. Cleaning up... ||"
 #Remove-Item -Path BetterDiscord-Windows.exe
-# Above does not work for some reason so you have to remove the exe yourself.
+# Unlike with Batchfile, Powershell won't wait until the installer is closed to delete the exe so you will have to do that yourself.
