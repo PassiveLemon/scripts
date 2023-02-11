@@ -1,3 +1,5 @@
+Write-Output "|| OculusKiller ||"
+
 Write-Output "|| Script must be run with administrator priviledges. ||"
 Write-Output "|| If you are running with admininistrator priviledges, continue. ||"
 Write-Output "|| Killing Oculus services... ||"
@@ -28,5 +30,5 @@ $ProgressPreference = 'SilentlyContinue'
 Invoke-WebRequest -Uri https://github.com/OpenOculus/OculusKiller/releases/latest/download/OculusDash.exe -OutFile OculusDash.exe -UseBasicParsing
 
 Write-Output "|| Finished. ||"
-Read-Host "|| Press enter to exit. ||"
+Read-Host "|| Press enter to continue. ||"
 exit

@@ -1,10 +1,12 @@
+Write-Output "|| RetroArchInstall ||"
+
 $version = "1.14.0"
 
 $clean = @"
 	Write-Output "|| Cleaning up... ||"
 	Remove-Item -Path .\RetroArch.7z -Force
 	Remove-Item -Path .\RetroArch\ -Recurse -Force
-	Read-Host "|| Press enter to exit. ||"
+	Read-Host "|| Press enter to continue. ||"
 	exit
 "@
 

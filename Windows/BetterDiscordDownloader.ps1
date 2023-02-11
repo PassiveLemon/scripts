@@ -1,3 +1,5 @@
+Write-Output "|| BetterDiscordDownloader ||"
+
 Write-Output "|| Downloading BD installer... ||"
 $ProgressPreference = 'SilentlyContinue'
 Invoke-WebRequest -Uri https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Windows.exe -OutFile BetterDiscord-Windows.exe -UseBasicParsing

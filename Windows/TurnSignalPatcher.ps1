@@ -1,8 +1,10 @@
+Write-Output "|| TurnSignalPatcher ||"
+
 $clean = @"
 	Write-Output "|| Cleaning up... ||"
 	Remove-Item -Path .\TurnSignalBuild.zip -Force
 	Remove-Item -Path .\TurnSignalBuilds\ -Recurse -Force
-	Read-Host "|| Press enter to exit. ||"
+	Read-Host "|| Press enter to continue. ||"
 	exit
 "@
 
