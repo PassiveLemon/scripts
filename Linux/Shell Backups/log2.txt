@@ -1,0 +1,19 @@
+03/03/2023 19:03:25 
+|| Backing up Videos... ||
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,12 CPUs x64)
+
+Scanning the drive:
+2 folders, 105 files, 1123026962 bytes (1072 MiB)
+
+Creating archive: /home/BACKUPDRIVE/BACKUPS/Videos/Videos.7z
+
+Items to compress: 107
+
+
+Files read from disk: 105
+Archive size: 1107009839 bytes (1056 MiB)
+Everything is Ok
+|| Archived. ||
+|| Backed up Videos. ||

@@ -1,0 +1,76 @@
+03/03/2023 19:05:21 
+|| Backing up Documents... ||
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,12 CPUs x64)
+
+Scanning the drive:
+1124 folders, 3085 files, 846454408 bytes (808 MiB)
+
+Creating archive: /home/BACKUPDRIVE/BACKUPS/Documents/Documents.7z
+
+Items to compress: 4209
+
+
+Files read from disk: 3083
+Archive size: 799692925 bytes (763 MiB)
+Everything is Ok
+|| Archived. ||
+|| Backed up Documents. ||
+03/03/2023 19:05:47 
+|| Backing up DMusic... ||
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,12 CPUs x64)
+
+Scanning the drive:
+1 folder, 10 files, 633407 bytes (619 KiB)
+
+Creating archive: /home/BACKUPDRIVE/BACKUPS/DMusic/DMusic.7z
+
+Items to compress: 11
+
+
+Files read from disk: 10
+Archive size: 605915 bytes (592 KiB)
+Everything is Ok
+|| Archived. ||
+|| Backed up DMusic. ||
+03/03/2023 19:05:48 
+|| Backing up Pictures... ||
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,12 CPUs x64)
+
+Scanning the drive:
+30 folders, 540 files, 682090477 bytes (651 MiB)
+
+Creating archive: /home/BACKUPDRIVE/BACKUPS/Pictures/Pictures.7z
+
+Items to compress: 570
+
+
+Files read from disk: 540
+Archive size: 610072740 bytes (582 MiB)
+Everything is Ok
+|| Archived. ||
+|| Backed up Pictures. ||
+03/03/2023 19:06:08 
+|| Backing up Videos... ||
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,12 CPUs x64)
+
+Scanning the drive:
+2 folders, 105 files, 1123026962 bytes (1072 MiB)
+
+Creating archive: /home/BACKUPDRIVE/BACKUPS/Videos/Videos.7z
+
+Items to compress: 107
+
+
+Files read from disk: 105
+Archive size: 1107009839 bytes (1056 MiB)
+Everything is Ok
+|| Archived. ||
+|| Backed up Videos. ||
