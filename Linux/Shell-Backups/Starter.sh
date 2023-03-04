@@ -4,7 +4,7 @@ echo "|| Backing up... ||"
 echo "|| This will show very little until done. Everything is in log.txt. ||"
 
 sudo chmod -R 777 ./
-export curdir=${PWD}
+export curdir="${PWD}"
 
 for itemfile in ./Items/*.sh; do
   echo "|| ${itemfile} ||"
