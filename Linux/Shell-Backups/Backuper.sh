@@ -20,15 +20,15 @@ if [ ! -z "ls ${src}/*" ]; then
 	sudo 7z a -t7z "${backup}.7z" "${srce}/*" -r
 	echo "|| Archived. ||"
 
-	if [ -e "${backup}3.7z" ]; then
+	if [ -e "${backup}3.7z" ] && [ -e "${backup}2.7z" ] && [ -e "${backup}1.7z" ] && [ -e "${backup}.7z" ]; then
 		sudo rm -f "${backup}3.7z"
 	fi 
 
-	if [ -e "${backup}2.7z" ]; then
+	if [ -e "${backup}2.7z" ] && [ -e "${backup}1.7z" ] && [ -e "${backup}.7z" ]; then
 		sudo mv "${backup}2.7z" "${backup}3.7z"
 	fi
 
-	if [ -e "${backup}1.7z" ]; then
+	if [ -e "${backup}1.7z" ] && [ -e "${backup}.7z" ]; then
 		sudo mv "${backup}1.7z" "${backup}2.7z"
 	fi
 
