@@ -1,6 +1,6 @@
 Write-Output "|| RetroArchInstall ||"
 
-$version = "1.14.0"
+$version = "1.16.0"
 
 $clean = @"
 	Write-Output "|| Cleaning up... ||"
